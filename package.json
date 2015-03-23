@@ -1,8 +1,30 @@
 {
-  "jspm": {
-    "directories": {
-      "lib": ".",
-      "packages": "jspm_packages"
-    }
+  "name": "node-cocoscii",
+  "version": "1.0.0",
+  "description": "Node.js version of cocoscii.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mz2/cocoscii.git"
+  },
+  "keywords": [
+    "asciimage",
+    "ascii",
+    "ascii",
+    "art"
+  ],
+  "author": "Matias Piipari <matias.piipari@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mz2/cocoscii/issues"
+  },
+  "homepage": "https://github.com/mz2/cocoscii",
+  "dependencies": {
+    "canvas": "^1.2.1",
+    "es6-module-loader": "^0.15.0",
+    "cocoscii": "git+https://github.com/mz2/cocoscii.git"
   }
 }

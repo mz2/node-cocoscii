@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/mz2/.nvm-fish/v0.10.33/bin/node',
+1 verbose cli   '/Users/mz2/.nvm-fish/v0.10.33/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/mz2/Projects/cocoscii',
+5 verbose install   [ 'canvas', 'es6-module-loader', 'cocoscii' ] ]
+6 info preinstall node-cocoscii@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping canvas@^1.2.1 /Users/mz2/Projects/cocoscii
+9 verbose already installed skipping es6-module-loader@^0.15.0 /Users/mz2/Projects/cocoscii
+10 verbose cache add [ 'cocoscii@git+https://github.com/mz2/cocoscii.git', null ]
+11 verbose cache add name=undefined spec="cocoscii@git+https://github.com/mz2/cocoscii.git" args=["cocoscii@git+https://github.com/mz2/cocoscii.git",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'cocoscii@git+https://github.com/mz2/cocoscii.git',
+12 verbose parsed url   path: 'cocoscii@git+https://github.com/mz2/cocoscii.git',
+12 verbose parsed url   href: 'cocoscii@git+https://github.com/mz2/cocoscii.git' }
+13 verbose cache add name="cocoscii" spec="git+https://github.com/mz2/cocoscii.git" args=["cocoscii","git+https://github.com/mz2/cocoscii.git"]
+14 verbose parsed url { protocol: 'git+https:',
+14 verbose parsed url   slashes: true,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: 'github.com',
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: 'github.com',
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '/mz2/cocoscii.git',
+14 verbose parsed url   path: '/mz2/cocoscii.git',
+14 verbose parsed url   href: 'git+https://github.com/mz2/cocoscii.git' }
+15 silly lockFile 78ffbb75-ttps-github-com-mz2-cocoscii-git https://github.com/mz2/cocoscii.git
+16 verbose lock https://github.com/mz2/cocoscii.git /Users/mz2/.npm/78ffbb75-ttps-github-com-mz2-cocoscii-git.lock
+17 verbose addRemoteGit [ 'https://github.com/mz2/cocoscii.git', 'master' ]
+18 verbose git clone https://github.com/mz2/cocoscii.git Cloning into bare repository '/Users/mz2/.npm/_git-remotes/https-github-com-mz2-cocoscii-git-78ffbb75'...
+19 verbose git fetch -a origin (https://github.com/mz2/cocoscii.git)
+20 verbose git rev-list -n1 master 6568a88ea838896e426b2ec6e38ddca471b36aee
+21 verbose resolved git url git+https://github.com/mz2/cocoscii.git#6568a88ea838896e426b2ec6e38ddca471b36aee
+22 verbose tar unpack /var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz
+23 silly lockFile aa721385--7811426508706063-tmp-tgz-unpack tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz-unpack
+24 verbose lock tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz-unpack /Users/mz2/.npm/aa721385--7811426508706063-tmp-tgz-unpack.lock
+25 silly lockFile f35aa7f9-60489-0-7811426508706063-tmp-tgz tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz
+26 verbose lock tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz /Users/mz2/.npm/f35aa7f9-60489-0-7811426508706063-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry
+29 silly gunzTarPerm modified mode [ '', 509, 493 ]
+30 silly gunzTarPerm extractEntry .gitignore
+31 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+34 silly gunzTarPerm extractEntry config.js
+35 silly gunzTarPerm modified mode [ 'config.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry index.html
+37 silly gunzTarPerm modified mode [ 'index.html', 436, 420 ]
+38 silly gunzTarPerm extractEntry node-cocoscii/
+39 silly gunzTarPerm modified mode [ 'node-cocoscii/', 509, 493 ]
+40 silly gunzTarPerm extractEntry node-cocoscii/.gitignore
+41 silly gunzTarPerm modified mode [ 'node-cocoscii/.gitignore', 436, 420 ]
+42 silly gunzTarPerm extractEntry node-cocoscii/asciimage.js
+43 silly gunzTarPerm modified mode [ 'node-cocoscii/asciimage.js', 509, 493 ]
+44 silly gunzTarPerm extractEntry node-cocoscii/cocoscii.js
+45 silly gunzTarPerm modified mode [ 'node-cocoscii/cocoscii.js', 511, 493 ]
+46 silly gunzTarPerm extractEntry node-cocoscii/package.json
+47 silly gunzTarPerm modified mode [ 'node-cocoscii/package.json', 436, 420 ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+50 silly gunzTarPerm extractEntry src/
+51 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+52 silly gunzTarPerm extractEntry src/cocoscii.js
+53 silly gunzTarPerm modified mode [ 'src/cocoscii.js', 436, 420 ]
+54 silly gunzTarPerm extractEntry src/main.js
+55 silly gunzTarPerm modified mode [ 'src/main.js', 436, 420 ]
+56 warn excluding symbolic link node-cocoscii/cocoscii.js -> ../src/cocoscii.js
+57 silly lockFile aa721385--7811426508706063-tmp-tgz-unpack tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz-unpack
+58 silly lockFile aa721385--7811426508706063-tmp-tgz-unpack tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz-unpack
+59 silly lockFile f35aa7f9-60489-0-7811426508706063-tmp-tgz tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz
+60 silly lockFile f35aa7f9-60489-0-7811426508706063-tmp-tgz tar:///var/folders/s9/c7hjrhgd5539gbhk2k7xpxnm0000gn/T/npm-71404-3EKZZ4Mw/1427145760489-0.7811426508706063/tmp.tgz
+61 silly lockFile 78ffbb75-ttps-github-com-mz2-cocoscii-git https://github.com/mz2/cocoscii.git
+62 silly lockFile 78ffbb75-ttps-github-com-mz2-cocoscii-git https://github.com/mz2/cocoscii.git
+63 error Error: No name provided
+63 error     at needName (/Users/mz2/.nvm-fish/v0.10.33/lib/node_modules/npm/lib/cache/add-local-tarball.js:215:37)
+63 error     at /Users/mz2/.nvm-fish/v0.10.33/lib/node_modules/npm/lib/cache/add-local-tarball.js:157:12
+63 error     at process._tickCallback (node.js:419:13)
+64 error If you need help, you may report this *entire* log,
+64 error including the npm and node versions, at:
+64 error     <http://github.com/npm/npm/issues>
+65 error System Darwin 14.3.0
+66 error command "/Users/mz2/.nvm-fish/v0.10.33/bin/node" "/Users/mz2/.nvm-fish/v0.10.33/bin/npm" "install"
+67 error cwd /Users/mz2/Projects/cocoscii
+68 error node -v v0.10.33
+69 error npm -v 1.4.28
+70 verbose exit [ 1, true ]
