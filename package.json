@@ -25,6 +25,6 @@
   "dependencies": {
     "canvas": "^1.2.1",
     "es6-module-loader": "^0.15.0",
-    "cocoscii": "git+https://github.com/mz2/cocoscii.git"
+    "cocoscii": "https://github.com/mz2/cocoscii/tarball/master"
   }
 }
