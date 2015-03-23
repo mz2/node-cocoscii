@@ -1,3 +1,6 @@
+var Canvas = require('canvas');
+var Image = Canvas.Image;
+
 /*
   rep: A "\n"-seperated ascii representation of the image.
   styles: A function to mutate the style dictionary. (shapeIndex: Number, dictionary: Object) => {}
@@ -37,10 +40,9 @@ function cocoscii (rep, styles = (idx, dict) => {}, scale = 4) {
     scale);
 
   // Save to image
-  const img = new Image();
-  img.src = canvas.toDataURL("image/png");
-  return img;
-
+  //const img = new Image();
+  //img.src = canvas.toDataURL("image/png");
+  return canvas;
 }
 
 function makeShapes ([head, ...tail]) {
@@ -89,7 +91,7 @@ function drawShapes (shapes, styles, width, height, scale) {
     lineWidth: "1"
   };
 
-  const canvas = document.createElement("canvas");
+  const canvas = new Canvas();
   const ctx = canvas.getContext("2d");
 
   canvas.width = width * scale;
