@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 
+var fs = require('fs');
 var canvas = require('canvas');
 var System = require('es6-module-loader').System;
+
+var imgData = fs.readFileSync('/dev/stdin').toString();
 
 System.import('./node_modules/cocoscii/src/cocoscii').then(function(cocosciiModule) {
     var cocoscii = cocosciiModule.default;
 
-    var img = cocoscii(process.stdin.read(), function(idx, style) {
+    var img = cocoscii(imgData, function(idx, style) {
       if (idx === 0) {
         style.fill = "#000";
       } else {
