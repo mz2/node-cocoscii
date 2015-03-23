@@ -26,5 +26,8 @@
     "canvas": "^1.2.1",
     "es6-module-loader": "^0.15.0",
     "cocoscii": "https://github.com/mz2/cocoscii/tarball/master"
+  },
+  "bin": {
+    "asciimage.js":"bin/asciimage.js"
   }
 }
